@@ -3,7 +3,7 @@ import { OrbitingCircles } from "./OrbitingCircles";
 export function Frameworks() {
   const skills = [
     "java",
-    "cplusplus",
+    "visualstudiocode",
     "css3",
     "node",
     "expressjs",
@@ -15,6 +15,7 @@ export function Frameworks() {
     "tailwindcss",
     "vitejs",
     "Threejs-logo",
+    
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">

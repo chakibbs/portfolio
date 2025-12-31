@@ -3,12 +3,9 @@ export const myProjects = [
     id: 1,
     title: "Movies finder",
     description:
-      "Facilitates finding movies .",
+      "Facilitates finding movies.",
     subDescription: [
-      "Built a scalable application with React Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "A movie finder or a tool that helps you discover films by searching,or recommending based on populatity's choice.",
     ],
     href: "https://github.com/chakibbs/projects/tree/main/movies",
     logo: "",
@@ -37,10 +34,7 @@ export const myProjects = [
     description:
       "A google gemini based chatbot.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "A chatbot using the Gemini API is an AI-powered conversational tool that interacts with users, providing answers, suggestions, or guidance by leveraging Gemini’s language understanding capabilities.",
     ],
     href: "https://github.com/chakibbs/projects/tree/main/gemini-app",
     logo: "",
@@ -67,12 +61,9 @@ export const myProjects = [
     id: 3,
     title: "mern thinkboard",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "A thinkboard is a visual tool for organizing ideas, brainstorming, and planning, helping you map out thoughts and collaborate efficiently. The backend powers the application by storing all boards, notes.",
     ],
     href: "https://github.com/chakibbs/projects/tree/main/mern-thinkboard",
     logo: "",
@@ -109,12 +100,10 @@ export const myProjects = [
     id: 4,
     title: "weather app",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "A simple weather app lets you enter a city and quickly shows the current weather, including temperature, conditions, and forecasts.",
+
     ],
     href: "https://github.com/chakibbs/projects/tree/main/weather",
     logo: "",
@@ -139,24 +128,17 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Kanban Board",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "A Kanban board is a visual project management tool that organizes tasks into columns like “To Do,” “In Progress,” and “Done,” helping teams track progress and workflow efficiently.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/kanban.png",
     tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
+      
       {
         id: 2,
         name: "HTML5",
@@ -171,43 +153,6 @@ export const myProjects = [
         id: 4,
         name: "Vite.js",
         path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -234,35 +179,27 @@ export const mySocials = [
 export const experiences = [
   {
     title: "Software Developer",
-    job: "Security & Defense Projects",
+    job: "",
     date: "2021-2023",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "",
     ],
   },
   {
     title: "Back-End Developer",
-    job: "Car Manufacture",
+    job: "",
     date: "2023-2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "",
     ],
   },
   {
     title: "Freelance Developer",
-    job: "Self-Employed",
+    job: "",
     date: "2025-2026",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "",
+      "",
     ],
   },
 ];
@@ -270,49 +207,49 @@ export const reviews = [
   {
     name: "mohamed",
     username: "@moh",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    body: "He was so fast at delievering, It's amazing. I love it.",
     img: "https://robohash.org/jack",
   },
   {
     name: "ilyes",
     username: "@ilyes",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    body: "This is amazing.",
     img: "https://robohash.org/jill",
   },
   {
     name: "imad",
     username: "@imad",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "This is exceptional from you. I love it.",
     img: "https://robohash.org/john",
   },
   {
     name: "wassim",
     username: "@wass",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
+    body: "I highly recommend working with chakib!",
     img: "https://robohash.org/alice",
   },
   {
     name: "reda",
     username: "@dido",
-    body: "Incredible work! The attention to detail is phenomenal.",
+    body: "Incredible work by chakib! The attention to detail is phenomenal.",
     img: "https://robohash.org/bob",
   },
   {
     name: "Charlie",
     username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
+    body: "This exceeded all my expectations!",
     img: "https://robohash.org/charlie",
   },
   {
     name: "khalil",
     username: "@khelo",
-    body: "Simply breathtaking. The best decision I've made in a while.",
+    body: "The best decision I've made is to work with him.",
     img: "https://robohash.org/dave",
   },
   {
     name: "houssem",
     username: "@lhou",
-    body: "So glad I found this. It has changed the game for me.",
+    body: "So glad I found chakib. he changed the game for me.",
     img: "https://robohash.org/eve",
   },
 ];

@@ -19,7 +19,7 @@ const Hero = () => {
         style={{ width: "100vw", height: "100vh" }}
       >
         <Canvas camera={{ position: [0, 1, 3] }}>
-          <Suspense fallback={<Loader />}>
+          
             <Float>
               <Astronaut
                 scale={isMobile && 0.23}
@@ -28,7 +28,7 @@ const Hero = () => {
              
             </Float>
             <Rig />
-          </Suspense>
+         
         </Canvas>
       </figure>
     </section>
